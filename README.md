@@ -1,2 +1,2 @@
 # fraud_detection
-Use a huge imbalanced synthetic dataset of credit card transactions to build a predictive model with low false negative rate.
+Work on a huge synthetic dataset of credit card transactions (~1.5M entries) and build a predictive model with low false negative rate.
