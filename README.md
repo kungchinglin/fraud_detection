@@ -3,6 +3,9 @@
 ## Summary
 In this project I am building a predictive model on massive imbalanced dataset of credit card transactions to classify whether a given transaction is fraudulent.
 
+## Packages Used
+**Pandas** is used for data cleaning and one-hot encoding. Numerous functions and objects are called in **scikit-learn** for building predictive models.
+
 ## Description of Dataset
 The dataset consists of rows with 22 features, including transaction amount, address of the cardholder, location of the merchant, etc. The training set has >1.4M rows, 7.5K of which are flagged as fraudulent. On the other hand, the test set has 55.5K rows, 2.1K of which are fraudulent. As can be seen, the dataset is highly imbalanced, and without care, the model will bias heavily toward correctly predicting non-fraud data, which is flagging all data as non-fraudulent. The dataset can be accessed in [part 1](data_set.part1.rar) and [part 2](data_set.part2.rar). Due to the limit on the maximum file size, I had to compress them before uploading.
 
